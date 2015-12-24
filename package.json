@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/davidlygagnon/react-isomorphic-bootstrap",
   "scripts": {
-      "build": "rm public/build.js; ./node_modules/.bin/webpack --progress --colors",
+      "build": "./node_modules/.bin/webpack --config --progress --colors",
       "start": "./node_modules/.bin/babel-node server.js"
   },
   "dependencies": {
