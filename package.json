@@ -19,7 +19,7 @@
   "homepage": "https://github.com/davidlygagnon/react-isomorphic-bootstrap",
   "scripts": {
       "postinstall": "webpack --progress --colors",
-      "start": "babel-node server.js"
+      "start": "./node_modules/.bin/babel-node server.js"
   },
   "dependencies": {
     "ejs": "^2.3.4",
