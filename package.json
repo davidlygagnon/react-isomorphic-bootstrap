@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React isomorphic bootstrap",
   "main": "index.js",
+  "engines": {
+    "node": "4.1.1"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/davidlygagnon/react-isomorphic-bootstrap"
