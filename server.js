@@ -39,7 +39,7 @@ app.get('*', (req, res) => {
 
 const server = http.createServer(app);
 
-server.listen(9000);
+server.listen(process.env.PORT || 9000);
 server.on('listening', () => {
     console.log('Server is up on 9000')
 })
